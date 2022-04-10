@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;  
+}
+
+h1, h2 {
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--dark);
+    opacity: .85;
+    color: #fff;
+    padding: 0 3rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 7rem;
+    z-index: 1;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#homepage span {
+    color: var(--warning);
+}
+
+.main {
+    padding-top: 4rem;
+}
+
+/* .main h4 {
+    color: var(--warning);
+} */
+
+.main ul {
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 12rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450vh;
+}
+
+.img {
+    overflow: hidden;
+}
+
+.content__item img {
+    height: 30rem;
+    transition: transform .4s ease-in-out;
+}
+
+.content__item li {
+    padding-top: 4rem;
+}
+
+.content__item img:hover {
+    transform: scale(1.5);
+}
+
+.navbar a {
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 .5rem;
+}
+
+.navbar a:hover {
+    border-bottom: .3rem solid var(--warning);
+    color: var(--warning);
+    opacity: .8;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar h1 {
+    font-size: 3rem;
+}
+
+.icon i {
+    color: #8f8f8f;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 3rem;
+}
+
+.icon i:hover {
+    color: #000000a3;
+    transition-duration: .4s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30rem;
+}
+
+.container p {
+    padding-top: 1rem;
+}
